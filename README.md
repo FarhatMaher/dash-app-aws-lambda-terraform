@@ -9,6 +9,7 @@ To deploy the application in AWS:
 - [AWS account](https://aws.amazon.com/free/)
 - [AWS CLI](https://aws.amazon.com/cli/)
 - [Terraform](https://www.terraform.io/downloads)
+- [Docker](https://www.docker.com/products/docker-desktop/)
 
 ## Folder structure
 
@@ -39,6 +40,7 @@ To deploy the application in AWS:
   ```
   region=eu-west-2
   environment=dev
+  docker_host=unix:////Users/foo/.docker/run/docker.sock
   ```
    
 1. Navigate to the `terraform` directory
