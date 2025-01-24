@@ -1,2 +1,5 @@
 dash
 awsgi2
+pandas
+requests
+numpy
