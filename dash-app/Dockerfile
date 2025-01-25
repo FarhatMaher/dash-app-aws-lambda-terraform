@@ -8,4 +8,4 @@ COPY . ${LAMBDA_TASK_ROOT}
 RUN pip install --no-cache-dir -r ${LAMBDA_TASK_ROOT}/requirements.txt
 
 # Set the handler
-CMD ["lambda.lambda_handler"]
+CMD ["lambda.handler"]
